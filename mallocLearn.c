@@ -37,7 +37,7 @@ int allocMalloc(int x)
 			sum = sum + *(vlrArr + i);
 	}
 	
-	// I undertood this function will free the memory I think, after passed through all array indice
+	
 	free(vlrArr);
 	
 	printf("Omg Malloc is horrible, why memory allocation is so hard");
